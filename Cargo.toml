@@ -19,11 +19,11 @@ colored = "2.0.0"
 defmt-decoder = { git = "https://github.com/knurling-rs/defmt", rev = "a158192", version = "0.1.0", features = ['unstable'] }
 defmt-elf2table = { git = "https://github.com/knurling-rs/defmt", rev = "a158192", version = "0.1.0", features = ['unstable'] }
 gimli = "0.22.0"
-log = { version = "0.4.11", features = ["std"] }
 # an addr2line trait is implement for a type in this particular version
 object = "0.20.0"
-probe-rs = "0.8.0"
-probe-rs-rtt = "0.3.0"
+log = { version = "0.4.11", features = ["std"] }
+probe-rs = "0.9.0"
+probe-rs-rtt = "0.4.0"
 rustc-demangle = "0.1.16"
 signal-hook = "0.1.16"
 structopt = "0.3.15"
