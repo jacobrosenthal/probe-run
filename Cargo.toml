@@ -24,8 +24,8 @@ gimli = "0.22.0"
 log = { version = "0.4.11", features = ["std"] }
 # an addr2line trait is implement for a type in this particular version
 object = "0.20.0"
-probe-rs = "0.10.0"
-probe-rs-rtt = "0.10.0"
+probe-rs = { version = "0.10.0", git = "https://github.com/probe-rs/probe-rs" }
+probe-rs-rtt = { version = "0.10.0", git = "https://github.com/probe-rs/probe-rs-rtt" }
 rustc-demangle = "0.1.16"
 signal-hook = "0.1.16"
 structopt = "0.3.15"
